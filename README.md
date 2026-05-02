@@ -5,28 +5,19 @@
 [![Latest Release](https://img.shields.io/github/v/release/dtsoden/ResumeApp?label=Latest&color=blue)](https://github.com/dtsoden/ResumeApp/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/dtsoden/ResumeApp/total?label=Total%20Downloads&color=success)](https://github.com/dtsoden/ResumeApp/releases)
 [![License](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue.svg)](#license)
-[![Platforms](https://img.shields.io/badge/Windows-supported-success)](#download)
-[![Mac](https://img.shields.io/badge/macOS-supported-success)](#download)
+[![Platforms](https://img.shields.io/badge/Windows-supported-success)](#download--first-launch)
+[![Mac](https://img.shields.io/badge/macOS-supported-success)](#download--first-launch)
 
 ---
 
-## Download
+## Download & first launch
 
-| Platform | File | Status |
-|---|---|---|
-| **Windows** (x64) | [⬇ Resume Tailor Setup.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.exe) | Available |
-| **macOS** (Apple Silicon) | [⬇ Resume Tailor-arm64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-arm64.dmg) | Available |
-| **macOS** (Intel) | [⬇ Resume Tailor-x64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-x64.dmg) | Available |
-
-> **Always grab the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest)** for new features and fixes.
-
----
-
-## First-launch security warning
-
-Resume Tailor is **not signed with an Apple Developer ID or Microsoft Authenticode certificate**. Together those cost roughly **$400/year** — Resume Tailor is free, so we don't carry them. Each operating system will show a one-time security warning the first time you launch the app. After you bypass it once, the app opens normally forever.
+Resume Tailor is **not signed with an Apple Developer ID or Microsoft Authenticode certificate**. Together those cost roughly **$400/year** — Resume Tailor is free, so we don't carry them. Each operating system shows a one-time security warning the first time you launch the app. Bypass once, and the app launches normally forever after. **Read the steps for your platform before downloading.**
 
 ### macOS
+
+**Download:**
+[⬇ Resume Tailor-arm64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-arm64.dmg) (Apple Silicon) · [⬇ Resume Tailor-x64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-x64.dmg) (Intel)
 
 1. Mount the DMG and drag **Resume Tailor** to **Applications**.
 2. Double-click **Resume Tailor** in /Applications. macOS will say *"Resume Tailor cannot be opened because Apple cannot check it for malicious software"* — click **Done**.
@@ -36,11 +27,15 @@ Resume Tailor is **not signed with an Apple Developer ID or Microsoft Authentico
 
 ### Windows
 
+**Download:** [⬇ Resume Tailor Setup.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.exe)
+
 1. Run **Resume Tailor Setup.exe**.
 2. SmartScreen shows a blue dialog: *"Windows protected your PC"*.
 3. Click **More info**.
 4. Click **Run anyway**.
 5. The installer runs.
+
+> The download links above always resolve to the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest) — bookmark them.
 
 ---
 
