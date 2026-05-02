@@ -133,3 +133,4 @@ Found a bug? Have a feature request? [Open an issue](https://github.com/dtsoden/
 ---
 
 Copyright (c) 2026 David Soden.
+
