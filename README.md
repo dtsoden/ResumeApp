@@ -22,6 +22,28 @@
 
 ---
 
+## First-launch security warning
+
+Resume Tailor is **not signed with an Apple Developer ID or Microsoft Authenticode certificate**. Together those cost roughly **$400/year** — Resume Tailor is free, so we don't carry them. Each operating system will show a one-time security warning the first time you launch the app. After you bypass it once, the app opens normally forever.
+
+### macOS
+
+1. Mount the DMG and drag **Resume Tailor** to **Applications**.
+2. Double-click **Resume Tailor** in /Applications. macOS will say *"Resume Tailor cannot be opened because Apple cannot check it for malicious software"* — click **Done**.
+3. Open **System Settings → Privacy & Security**, scroll to the bottom.
+4. Click **Open Anyway** next to the Resume Tailor message.
+5. Confirm. Resume Tailor launches.
+
+### Windows
+
+1. Run **Resume Tailor Setup.exe**.
+2. SmartScreen shows a blue dialog: *"Windows protected your PC"*.
+3. Click **More info**.
+4. Click **Run anyway**.
+5. The installer runs.
+
+---
+
 ## What it does
 
 You feed Resume Tailor everything about your career, past résumés, LinkedIn excerpts, public profile URLs, Q&A answers about gaps. For each job you apply to, paste the JD and Resume Tailor builds a custom-tailored résumé that matches that job's vocabulary, surfaces the most relevant experience, and scores how well you fit.
