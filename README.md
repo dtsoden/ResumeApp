@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/dtsoden/ResumeApp/total?label=Total%20Downloads&color=success)](https://github.com/dtsoden/ResumeApp/releases)
 [![License](https://img.shields.io/badge/License-PolyForm%20Noncommercial%201.0.0-blue.svg)](#license)
 [![Platforms](https://img.shields.io/badge/Windows-supported-success)](#download)
-[![Mac](https://img.shields.io/badge/macOS-coming%20soon-orange)](#download)
+[![Mac](https://img.shields.io/badge/macOS-supported-success)](#download)
 
 ---
 
@@ -14,8 +14,9 @@
 
 | Platform | File | Status |
 |---|---|---|
-| **Windows** (x64) | [⬇ Resume Tailor Setup 0.1.0.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.0.1.0.exe) | Available |
-| **macOS** (Intel + Apple Silicon) | DMG | Coming soon |
+| **Windows** (x64) | [⬇ Resume Tailor Setup.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.exe) | Available |
+| **macOS** (Apple Silicon) | [⬇ Resume Tailor-arm64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-arm64.dmg) | Available |
+| **macOS** (Intel) | [⬇ Resume Tailor-x64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-x64.dmg) | Available |
 
 > **Always grab the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest)** for new features and fixes.
 
@@ -91,7 +92,7 @@ Set your work authorization, W2 eligibility, security clearance, and relocation 
 
 | | Minimum |
 |---|---|
-| OS | Windows 10 or later (x64) |
+| OS | Windows 10 or later (x64), or macOS 11 Big Sur or later (Intel or Apple Silicon) |
 | RAM | 4 GB |
 | Disk | 600 MB for app + your data |
 | Internet | Only for cloud AI providers; not required with Ollama / LM Studio |
