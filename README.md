@@ -16,7 +16,6 @@
 |---|---|---|
 | **Windows** (x64) | [⬇ Resume Tailor Setup 0.1.0.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.0.1.0.exe) | Available |
 | **macOS** (Intel + Apple Silicon) | DMG | Coming soon |
-| **Linux** | AppImage / .deb | Coming soon |
 
 > **Always grab the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest)** for new features and fixes.
 
