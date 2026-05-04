@@ -12,28 +12,24 @@
 
 ## Download & first launch
 
-Resume Tailor is **not signed with an Apple Developer ID or Microsoft Authenticode certificate**. Together those cost roughly **$400/year** — Resume Tailor is free, so we don't carry them. Each operating system shows a one-time security warning the first time you launch the app. Bypass once, and the app launches normally forever after. **Read the steps for your platform before downloading.**
-
 ### macOS
 
 **Download:**
 [⬇ Resume Tailor-arm64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-arm64.dmg) (Apple Silicon) · [⬇ Resume Tailor-x64.dmg](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor-x64.dmg) (Intel)
 
-1. Mount the DMG and drag **Resume Tailor** to **Applications**.
-2. Double-click **Resume Tailor** in /Applications. macOS will say *"Resume Tailor cannot be opened because Apple cannot check it for malicious software"* — click **Done**.
-3. Open **System Settings → Privacy & Security**, scroll to the bottom.
-4. Click **Open Anyway** next to the Resume Tailor message.
-5. Confirm. Resume Tailor launches.
+Mount the DMG, drag **Resume Tailor** to **Applications**, and launch. The app is signed with an Apple Developer ID and notarized by Apple, so macOS opens it without warnings.
 
 ### Windows
 
 **Download:** [⬇ Resume Tailor Setup.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.exe)
 
+The Windows installer is **not** code-signed (a Microsoft Authenticode certificate costs ~$300/yr and Resume Tailor is free). SmartScreen will show a one-time warning the first time you run it:
+
 1. Run **Resume Tailor Setup.exe**.
 2. SmartScreen shows a blue dialog: *"Windows protected your PC"*.
 3. Click **More info**.
 4. Click **Run anyway**.
-5. The installer runs.
+5. The installer runs. (One time per machine — subsequent launches are silent.)
 
 > The download links above always resolve to the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest) — bookmark them.
 
