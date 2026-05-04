@@ -1,4 +1,4 @@
-# Resume Tailor
+﻿# Resume Tailor
 
 **A free desktop app that tailors your résumé for any job, locally on your machine.**
 
@@ -23,15 +23,11 @@ Mount the DMG, drag **Resume Tailor** to **Applications**, and launch. The app i
 
 **Download:** [⬇ Resume Tailor Setup.exe](https://github.com/dtsoden/ResumeApp/releases/latest/download/Resume.Tailor.Setup.exe)
 
-The Windows installer is **not** code-signed (a Microsoft Authenticode certificate costs ~$300/yr and Resume Tailor is free). SmartScreen will show a one-time warning the first time you run it:
+The Windows installer is **digitally signed** via Microsoft's Artifact Signing service. The publisher appears as **David Soden** in the UAC prompt and the cert chains back to Microsoft's own Identity Verification root CA. Run the installer normally — no warning bypass steps required.
 
-1. Run **Resume Tailor Setup.exe**.
-2. SmartScreen shows a blue dialog: *"Windows protected your PC"*.
-3. Click **More info**.
-4. Click **Run anyway**.
-5. The installer runs. (One time per machine — subsequent launches are silent.)
+> If you happen to be among the first few hundred people to download a brand-new release, SmartScreen may briefly show a "Windows protected your PC" dialog while Microsoft's reputation system catches up to the new build. Click **More info → Run anyway**. The warning disappears across releases as reputation accumulates.
 
-> The download links above always resolve to the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest) — bookmark them.
+> The download link above always resolves to the [latest release](https://github.com/dtsoden/ResumeApp/releases/latest) — bookmark it.
 
 ---
 
@@ -146,4 +142,5 @@ Found a bug? Have a feature request? [Open an issue](https://github.com/dtsoden/
 ---
 
 Copyright (c) 2026 David Soden.
+
 
