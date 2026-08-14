@@ -1,4 +1,5 @@
 ﻿# Resume Tailor
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/dtsoden/ResumeApp/total)
 
 **A free desktop app that tailors your résumé for any job, locally on your machine.**
 
